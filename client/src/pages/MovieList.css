@@ -6,11 +6,11 @@ table {
 }
 /* Zebra striping */
 tr:nth-of-type(odd) {
-  background: rgb(100, 98, 98);
-  color: black;
+  background: rgb(51, 50, 50);
+  color: rgb(255, 255, 255);
 }
 tr:nth-of-type(even) {
-  background: rgb(209, 208, 208);
+  background: rgb(216, 215, 215);
   color: rgb(0, 0, 0);
 }
 th {
@@ -22,6 +22,7 @@ th {
 td,
 th {
   padding: 1.5rem;
+
   margin: 1px;
   border: 1px solid rgb(15, 14, 14);
   text-align: left;
@@ -53,11 +54,11 @@ th {
   }
 
   tr:nth-of-type(odd) {
-    background: rgb(100, 98, 98);
-    color: black;
+    background: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
   }
   tr:nth-of-type(even) {
-    background: rgb(209, 208, 208);
+    background: rgb(216, 215, 215);
     color: rgb(0, 0, 0);
   }
 
@@ -78,6 +79,7 @@ th {
     width: 45%;
     margin-top: 2rem;
     padding-right: 10px;
+    border-right: 2px solid rgb(222, 5, 5);
     white-space: nowrap;
   }
 
